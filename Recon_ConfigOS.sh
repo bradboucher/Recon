@@ -75,6 +75,10 @@ cd /home/Recon/ffuf
 go get
 go build
 
+wget https://github.com/ffuf/ffuf-scripts/blob/master/ffuf_basicauth.sh
+chmod +x ffuf_basicauth.sh
+cp ffuf /usr/local/bin
+
 cd /home/Recon
 
 echo "[*] Add  DNS resolvers... [*]"
