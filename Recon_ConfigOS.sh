@@ -50,6 +50,7 @@ echo "[*] Initialize Shodan API Key..."
 
 echo "[*] Create and Populate Recon Folder..."
 
+mkdir /home/ffuf-outputs
 mkdir /home/Recon
 mkdir /home/Recon/inputs
 mkdir /home/Recon/outputs
