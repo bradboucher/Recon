@@ -10,5 +10,5 @@ Website screenshotting using Aquatone
 Port scanning
 Vuln scanning using Nuclei templates
 Brute forcing using Brute Spray
-
+Wordlists
 
