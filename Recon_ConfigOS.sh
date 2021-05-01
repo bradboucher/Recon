@@ -186,7 +186,8 @@ cp aquatone /usr/local/bin
 echo "[*] Install masscan  [*]"
 apt install masscan
 
-
+echo "[*] Install anew  [*]"
+go get -u github.com/tomnomnom/anew
 
 echo "[*] Install FinDomain  [*]"
 
@@ -216,4 +217,4 @@ echo "GitHub key added to the tokens file in /home/Recon/github-search/.tokens"
 cd /home/Recon
 
 
-echo "************************** Setup Complete.  Restart now and then check DNS resolvers via /etc/resolv.conf **************************"
+echo "************************** Setup Complete.  Reboot now. **************************"
